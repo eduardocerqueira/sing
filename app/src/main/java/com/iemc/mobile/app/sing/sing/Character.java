@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 
 import com.mobile.sing.R;
@@ -14,7 +15,7 @@ public class Character extends AppCompatActivity {
 
     MediaPlayer mediaPlayer;
     String msg = "CHARACTER : ";
-    Button play;
+    ImageButton play;
     Button close;
     int music;
 
@@ -116,7 +117,7 @@ public class Character extends AppCompatActivity {
         super.onStart();
         Log.d(msg, "The onStart() event");
 
-        play = (Button) findViewById(R.id.play);
+        play = (ImageButton)findViewById(R.id.bt_play);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

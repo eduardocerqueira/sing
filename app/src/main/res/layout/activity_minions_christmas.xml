@@ -23,19 +23,6 @@
         android:src="@drawable/minions_christmas" />
 
     <Button
-        android:id="@+id/play"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="97dp"
-        android:width="130dp"
-        android:background="#040cfc"
-        android:text="Play Music"
-        android:textColor="#ffffff" />
-
-    <Button
         android:id="@+id/close"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -45,6 +32,14 @@
         android:background="#00ffffff"
         android:text="X"
         android:textColor="#fb0202"
-        android:textSize="35dp" />
+        android:textSize="50dp" />
+
+    <ImageButton
+        android:id="@+id/bt_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_play"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

@@ -16,7 +16,7 @@
         android:shrinkColumns="*"
         android:stretchColumns="*"
         android:visibility="visible"
-        tools:context="com.iemc.mobile.app.sing.sing.MainActivity">
+        tools:context="com.iemc.mobile.app.sing.sing.Main">
 
         <TableLayout
             android:id="@+id/tlGridTable"

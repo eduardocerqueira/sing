@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 
 import com.mobile.sing.R;
 
-public class MainActivity extends AppCompatActivity {
+public class Main extends AppCompatActivity {
 
     final Context context = this;
     ImageView img_elsa;
@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         LinearLayout llayout = (LinearLayout) findViewById(R.id.main_layout);
+
+        //TODO: Background - add logic to change after 30 seconds
         llayout.setBackgroundResource(R.drawable.bg_7);
 
         // ELSA
